@@ -1,0 +1,27 @@
+body {
+    background-color:rgba(0, 0, 0, 0.74);
+    margin: 0px
+}
+#calculator {
+    border: 2px solid black;
+    background-color: gray;
+    color: white;
+    padding: 35vh 25vh ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+div{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
