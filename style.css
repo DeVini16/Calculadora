@@ -1,27 +1,62 @@
-body {
-    background-color:rgba(0, 0, 0, 0.74);
-    margin: 0px
+*{
+    padding: 0;
+    margin: 0;
 }
+
+body { 
+    background-color:rgba(0, 0, 0, 0.148);
+}
+
 #calculator {
-    border: 2px solid black;
-    background-color: gray;
-    color: white;
-    padding: 35vh 25vh ;
+    background-color: rgba(184, 182, 182, 0.779);
+    text-align: center;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
+    padding: 9px;
     transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center
+    left: 50%;
+    top: 50%;
 }
-div{
+
+button{
+    font-size: 20px;
+    width: 110px;
+    height: 50px;
+    text-align: center;
     border: 2px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center
+    padding: 40px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(242, 242, 242);
 }
+
+button:hover, #comand:hover{
+    background-color: rgb(163, 163, 163);
+    border: 1px rgba(87, 87, 87, 0.312) solid ;
+}
+
+#result{
+    width: auto;
+    margin: 5px;
+    text-align:right ;
+    font-size: 35px;
+    padding-top: 40px;
+}
+
+#textCalculator{
+    font-size: 14px;
+    display: flex;
+    color: rgb(89, 89, 89);
+}
+
+#comand{
+    background-color: rgb(215, 215, 215);
+    border: 1px rgba(0, 0, 0, 0.107) solid;
+}
+
+#comandResult{
+    background-color: rgba(0, 123, 255, 0.503);
+}
+
+    
+
 

@@ -1,1 +1,4 @@
-console.log(578)
+function inserting(number){
+    const result = document.getElementById("result")
+    return result.innerHTML = number.toString()
+}

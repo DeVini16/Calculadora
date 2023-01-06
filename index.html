@@ -8,28 +8,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-       <h2>Calculadora Solar</h2>
+
        <div id="calculator">
-            <div id="CE"></div>
-            <div id="C"></div>
-            <div id="DEL"></div>
-            <div id="/"></div>
-            <div id="7"></div>
-            <div id="8"></div>
-            <div id="9"></div>
-            <div id="*"></div>
-            <div id="4"></div>
-            <div id="5"></div>
-            <div id="6"></div>
-            <div id="-"></div>
-            <div id="1"></div>
-            <div id="2"></div>
-            <div id="3"></div>
-            <div id="+"></div>
-            <div id="0"></div>
-            <div id="."></div>
-            <div id="="></div>
-       </div>
+        <p id="textCalculator">Calculadora</p>
+            <p id="result"></p>
+
+                <table cellspacing="4">
+                    
+                    <tr>
+                            <td><button id="comand">CE</button></td>
+                            <td><button id="comand">C</button></td>
+                            <td><button id="comand">DEL</button></td>
+                            <td><button id="comand">/</button></td>
+                        </tr>
+
+                        <tr>
+                            <td><button onclick="inserting(7)">7</button></td>
+                            <td><button onclick="inserting(8)">8</button></td>
+                            <td><button onclick="inserting(9)">9</button></td>
+                            <td><button id="comand">*</button></td>
+
+                        </tr>
+                
+                        <tr>
+                            <td><button onclick="inserting(4)">4</button></td>
+                            <td><button onclick="inserting(5)">5</button></td>
+                            <td><button onclick="inserting(6)">6</button></td>
+                            <td><button id="comand">-</button></td>
+                        </tr>
+
+                        <tr>
+                            <td><button onclick="inserting(1)">1</button></td>
+                            <td><button onclick="inserting(2)">2</button></td>
+                            <td><button onclick="inserting(3)">3</button></td>
+                            <td><button id="comand">+</button></td>
+                        </tr>
+                    
+                        <tr>
+                            <td><button onclick="inserting(0)">0</button></td>
+                            <td><button >.</button></td>
+                            <th  colspan="2"><button id="comandResult" style="width: 223px;">=</button></th>
+                        </tr>
+                    </table>
+            </div>
 
 
 
