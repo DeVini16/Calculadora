@@ -3,25 +3,34 @@ body {
     margin: 0px
 }
 #calculator {
-    border: 2px solid black;
+    border: 2px solid rgb(67, 20, 222);
     background-color: gray;
-    color: white;
-    padding: 35vh 25vh ;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center
+    text-align: center;
+   
 }
-div{
+#result{
+    border: 1px solid black;
+}
+
+table{
+    text-align: center;
+    border: 2px solid  rgb(213, 31, 31);
+    padding: 5%;
+
+}
+#midC{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+td{
+    font-size:20px ;
+    padding: 40px;
+}
+
+tr,td,th{
+    text-align: center;
     border: 2px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center
 }
+    
+
 
