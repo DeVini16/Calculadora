@@ -18,7 +18,7 @@
                     <tr>
                             <td><button id="comand" onclick="clean()">CE</button></td>
                             <td><button id="comand" onclick="clean()">C </button></td>
-                            <td><button id="comand">DEL</button></td>
+                            <td><button id="comand" onclick="back()">DEL</button></td>
                             <td><button id="comand" onclick="inserting('/')">/</button></td>
                         </tr>
 
@@ -26,7 +26,7 @@
                             <td><button onclick="inserting('7')">7</button></td>
                             <td><button onclick="inserting('8')">8</button></td>
                             <td><button onclick="inserting('9')">9</button></td>
-                            <td><button id="comand" onclick="inserting('x')">*</button></td>
+                            <td><button id="comand" onclick="inserting('*')">*</button></td>
 
                         </tr>
                 
@@ -47,7 +47,7 @@
                         <tr>
                             <td><button onclick="inserting('0')">0</button></td>
                             <td><button onclick="inserting('.')">.</button></td>
-                            <th  colspan="2"><button id="comandResult" style="width: 223px;">=</button></th>
+                            <th  colspan="2"><button onclick="calculation()" id="comandResult" style="width: 223px;">=</button></th>
                         </tr>
                     </table>
             </div>
