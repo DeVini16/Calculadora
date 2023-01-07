@@ -16,38 +16,38 @@
                 <table cellspacing="4">
                     
                     <tr>
-                            <td><button id="comand">CE</button></td>
-                            <td><button id="comand">C</button></td>
-                            <td><button id="comand">DEL</button></td>
-                            <td><button id="comand">/</button></td>
+                            <td><button id="comand" onclick="clean()">CE</button></td>
+                            <td><button id="comand" onclick="clean()">C </button></td>
+                            <td><button id="comand" onclick="back()">DEL</button></td>
+                            <td><button id="comand" onclick="inserting('/')">/</button></td>
                         </tr>
 
                         <tr>
-                            <td><button onclick="inserting(7)">7</button></td>
-                            <td><button onclick="inserting(8)">8</button></td>
-                            <td><button onclick="inserting(9)">9</button></td>
-                            <td><button id="comand">*</button></td>
+                            <td><button onclick="inserting('7')">7</button></td>
+                            <td><button onclick="inserting('8')">8</button></td>
+                            <td><button onclick="inserting('9')">9</button></td>
+                            <td><button id="comand" onclick="inserting('*')">*</button></td>
 
                         </tr>
                 
                         <tr>
-                            <td><button onclick="inserting(4)">4</button></td>
-                            <td><button onclick="inserting(5)">5</button></td>
-                            <td><button onclick="inserting(6)">6</button></td>
-                            <td><button id="comand">-</button></td>
+                            <td><button onclick="inserting('4')">4</button></td>
+                            <td><button onclick="inserting('5')">5</button></td>
+                            <td><button onclick="inserting('6')">6</button></td>
+                            <td><button id="comand" onclick="inserting('-')">-</button></td>
                         </tr>
 
                         <tr>
-                            <td><button onclick="inserting(1)">1</button></td>
-                            <td><button onclick="inserting(2)">2</button></td>
-                            <td><button onclick="inserting(3)">3</button></td>
-                            <td><button id="comand">+</button></td>
+                            <td><button onclick="inserting('1')">1</button></td>
+                            <td><button onclick="inserting('2')">2</button></td>
+                            <td><button onclick="inserting('3')">3</button></td>
+                            <td><button id="comand" onclick="inserting('+')">+</button></td>
                         </tr>
                     
                         <tr>
-                            <td><button onclick="inserting(0)">0</button></td>
-                            <td><button >.</button></td>
-                            <th  colspan="2"><button id="comandResult" style="width: 223px;">=</button></th>
+                            <td><button onclick="inserting('0')">0</button></td>
+                            <td><button onclick="inserting('.')">.</button></td>
+                            <th  colspan="2"><button onclick="calculation()" id="comandResult" style="width: 223px;">=</button></th>
                         </tr>
                     </table>
             </div>
