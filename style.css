@@ -20,7 +20,6 @@ body {
 button{
     font-size: 20px;
     width: 110px;
-    height: 50px;
     text-align: center;
     border: 2px solid black;
     padding: 40px;
@@ -35,12 +34,13 @@ button:hover, #comand:hover{
 }
 
 #result{
-    width: auto;
+    max-width: 447px;
     margin: 5px;
     text-align:right ;
     font-size: 40px;
     padding-top: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 50px;
 }
 
 #textCalculator{
@@ -58,6 +58,7 @@ button:hover, #comand:hover{
     background-color: rgba(0, 123, 255, 0.503);
 }
 
-    
 
-
+tr {
+    height: 105px;  
+}
