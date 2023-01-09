@@ -17,8 +17,8 @@ function calculation(){
     var calculationNumber = document.getElementById("result").innerHTML;
 
     if(calculationNumber){
-        document.getElementById("result").innerHTML = eval(calculationNumber)
+        document.getElementById("result").innerHTML = eval(calculationNumber).toLocaleString('pt-br', {style: 'decimal', maximumFractionDigits: 2, maximumSignificantDigits: 3 })
     }else{
-        document.getElementById("result").innerHTML = '0'
+        document.getElementById("result").innerHTML = 'Faça sua conta!'
     }
 }
